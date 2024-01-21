@@ -1,0 +1,41 @@
+\documentclass{liangongbudangshi}
+
+\renewcommand*{\songti}{\CJKfamily{zhsong}} 
+\renewcommand*{\heiti}{\CJKfamily{zhhei}} 
+\renewcommand*{\kaishu}{\CJKfamily{zhkai}} 
+\renewcommand*{\fangsong}{\CJKfamily{zhfs}}
+
+\MakePerPage{footnote}
+
+\begin{document}
+    \include{前言/封面.tex}
+    \include{前言/全世界无产者，联合起来.tex}
+
+    % 目录
+    \setcounter{secnumdepth}{0}
+    \pagestyle{docstyle}
+	\pagenumbering{Roman}
+	\tableofcontents
+	\cleardoublepage
+
+    % 设置正文页眉页脚格式
+    \pagestyle{docstyle}
+    \pagenumbering{arabic}
+	\setcounter{page}{1}
+
+    \include{前言/导言.tex}
+    \include{正文/第一章.tex}
+    \include{正文/第二章.tex}
+    \include{正文/第三章.tex}
+    \include{正文/第四章.tex}
+    \include{正文/第五章.tex}
+    \include{正文/第六章.tex}
+    \include{正文/第七章.tex}
+    \include{正文/第八章.tex}
+    \include{正文/第九章.tex}
+    \include{正文/第十章.tex}
+    \include{正文/第十一章.tex}
+    \include{正文/第十二章.tex}
+    \include{前言/结束语.tex}
+
+\end{document}
